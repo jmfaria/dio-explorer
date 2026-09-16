@@ -1,1 +1,569 @@
-{}
+{
+  "trilhas": [
+    {
+      "id": 1,
+      "nome": "Formação JavaScript Developer",
+      "tecnologia": "JavaScript",
+      "nivel": "Básico",
+      "numero_de_modulos": 8,
+      "xp_total": 12400,
+      "badges_disponiveis": ["JS Iniciante", "DOM Master", "ES6 Hero"],
+      "promocoes": {
+        "desconto": "20%",
+        "validade": "2025-12-31"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "JavaScript na prática", "data": "2025-08-10", "instrutor": "Carlos Lima" },
+        { "titulo": "Async/Await descomplicado", "data": "2025-09-05", "instrutor": "Ana Paula" }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Formação React Developer",
+      "tecnologia": "React",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 10,
+      "xp_total": 18500,
+      "badges_disponiveis": ["React Fundamentals", "Hooks Expert", "Redux Master"],
+      "promocoes": {
+        "desconto": "15%",
+        "validade": "2025-10-15"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Criando componentes reutilizáveis", "data": "2025-07-20", "instrutor": "Fernanda Costa" },
+        { "titulo": "State Management com Redux", "data": "2025-08-18", "instrutor": "João Mendes" }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Formação Python Developer",
+      "tecnologia": "Python",
+      "nivel": "Básico",
+      "numero_de_modulos": 9,
+      "xp_total": 14200,
+      "badges_disponiveis": ["Python Iniciante", "Data Structures Pro", "OOP Wizard"],
+      "promocoes": {
+        "desconto": "25%",
+        "validade": "2025-11-30"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Python para iniciantes", "data": "2025-07-12", "instrutor": "Marcelo Souza" },
+        { "titulo": "Automação com Python", "data": "2025-09-22", "instrutor": "Beatriz Alves" }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Formação Java Developer",
+      "tecnologia": "Java",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 12,
+      "xp_total": 22000,
+      "badges_disponiveis": ["Java Básico", "Spring Boot Expert", "JPA Master"],
+      "promocoes": {
+        "desconto": "10%",
+        "validade": "2025-09-30"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Introdução ao Spring Boot", "data": "2025-08-02", "instrutor": "Lucas Ferreira" },
+        { "titulo": "APIs RESTful com Java", "data": "2025-10-10", "instrutor": "Camila Torres" }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Formação Machine Learning Specialist",
+      "tecnologia": "Python / Scikit-Learn",
+      "nivel": "Avançado",
+      "numero_de_modulos": 15,
+      "xp_total": 35000,
+      "badges_disponiveis": ["ML Foundations", "Model Tuning Pro", "Deep Learning Expert"],
+      "promocoes": {
+        "desconto": "30%",
+        "validade": "2025-12-01"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Regressão Linear na prática", "data": "2025-07-28", "instrutor": "Rafael Nunes" },
+        { "titulo": "Redes Neurais do zero", "data": "2025-10-05", "instrutor": "Isabela Martins" }
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Formação Node.js Developer",
+      "tecnologia": "Node.js",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 11,
+      "xp_total": 19800,
+      "badges_disponiveis": ["Node Starter", "Express Master", "Microservices Pro"],
+      "promocoes": {
+        "desconto": "0%",
+        "validade": null
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "APIs com Express.js", "data": "2025-08-14", "instrutor": "Thiago Ramos" }
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Formação Angular Developer",
+      "tecnologia": "Angular",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 10,
+      "xp_total": 17600,
+      "badges_disponiveis": ["Angular Starter", "RxJS Hero", "NgRx Expert"],
+      "promocoes": {
+        "desconto": "20%",
+        "validade": "2025-08-31"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Componentes e Módulos Angular", "data": "2025-09-01", "instrutor": "Priscila Gomes" },
+        { "titulo": "Formulários reativos", "data": "2025-09-29", "instrutor": "Eduardo Lopes" }
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Formação Vue.js Developer",
+      "tecnologia": "Vue.js",
+      "nivel": "Básico",
+      "numero_de_modulos": 8,
+      "xp_total": 13500,
+      "badges_disponiveis": ["Vue Iniciante", "Composition API Pro", "Pinia Master"],
+      "promocoes": {
+        "desconto": "15%",
+        "validade": "2025-10-01"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Vue 3 do zero", "data": "2025-07-30", "instrutor": "Larissa Duarte" }
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Formação DevOps Engineer",
+      "tecnologia": "Docker / Kubernetes / CI-CD",
+      "nivel": "Avançado",
+      "numero_de_modulos": 14,
+      "xp_total": 30000,
+      "badges_disponiveis": ["Docker Expert", "K8s Navigator", "CI/CD Master"],
+      "promocoes": {
+        "desconto": "35%",
+        "validade": "2025-11-15"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Docker na prática", "data": "2025-08-06", "instrutor": "Rodrigo Carvalho" },
+        { "titulo": "Deploy com Kubernetes", "data": "2025-10-20", "instrutor": "Natália Braga" }
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Formação Cloud AWS",
+      "tecnologia": "Amazon Web Services",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 13,
+      "xp_total": 26500,
+      "badges_disponiveis": ["AWS Practitioner", "S3 & EC2 Expert", "Serverless Pro"],
+      "promocoes": {
+        "desconto": "25%",
+        "validade": "2025-12-20"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Introdução à AWS", "data": "2025-07-15", "instrutor": "Felipe Andrade" },
+        { "titulo": "Lambda e API Gateway", "data": "2025-09-12", "instrutor": "Sandra Oliveira" }
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "Formação Cloud Azure",
+      "tecnologia": "Microsoft Azure",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 12,
+      "xp_total": 24800,
+      "badges_disponiveis": ["Azure Fundamentals", "AZ-900 Ready", "Azure DevOps Pro"],
+      "promocoes": {
+        "desconto": "20%",
+        "validade": "2025-10-31"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Azure para iniciantes", "data": "2025-08-22", "instrutor": "Gustavo Pires" }
+      ]
+    },
+    {
+      "id": 12,
+      "nome": "Formação Data Science com Python",
+      "tecnologia": "Python / Pandas / NumPy",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 14,
+      "xp_total": 28000,
+      "badges_disponiveis": ["Data Analyst", "Pandas Expert", "Visualization Pro"],
+      "promocoes": {
+        "desconto": "30%",
+        "validade": "2025-11-01"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Análise exploratória de dados", "data": "2025-07-25", "instrutor": "Aline Castro" },
+        { "titulo": "Visualização com Matplotlib", "data": "2025-09-18", "instrutor": "Bruno Tavares" }
+      ]
+    },
+    {
+      "id": 13,
+      "nome": "Formação SQL e Banco de Dados",
+      "tecnologia": "SQL / PostgreSQL / MySQL",
+      "nivel": "Básico",
+      "numero_de_modulos": 7,
+      "xp_total": 11000,
+      "badges_disponiveis": ["SQL Starter", "Query Optimizer", "DBA Basics"],
+      "promocoes": {
+        "desconto": "10%",
+        "validade": "2025-08-20"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "SQL do zero ao avançado", "data": "2025-08-08", "instrutor": "Marcos Ribeiro" }
+      ]
+    },
+    {
+      "id": 14,
+      "nome": "Formação Flutter Developer",
+      "tecnologia": "Flutter / Dart",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 11,
+      "xp_total": 20500,
+      "badges_disponiveis": ["Flutter Starter", "Dart Expert", "Mobile UI Pro"],
+      "promocoes": {
+        "desconto": "15%",
+        "validade": "2025-09-10"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Seu primeiro app Flutter", "data": "2025-07-18", "instrutor": "Renata Campos" },
+        { "titulo": "Gerenciamento de estado com Provider", "data": "2025-10-03", "instrutor": "Vinicius Mota" }
+      ]
+    },
+    {
+      "id": 15,
+      "nome": "Formação Kotlin Android Developer",
+      "tecnologia": "Kotlin / Android",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 12,
+      "xp_total": 21000,
+      "badges_disponiveis": ["Kotlin Básico", "Jetpack Compose Expert", "Android Pro"],
+      "promocoes": {
+        "desconto": "20%",
+        "validade": "2025-11-20"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Kotlin para Android", "data": "2025-08-28", "instrutor": "Diego Santos" }
+      ]
+    },
+    {
+      "id": 16,
+      "nome": "Formação Swift iOS Developer",
+      "tecnologia": "Swift / SwiftUI",
+      "nivel": "Avançado",
+      "numero_de_modulos": 13,
+      "xp_total": 27000,
+      "badges_disponiveis": ["Swift Starter", "SwiftUI Master", "iOS Expert"],
+      "promocoes": {
+        "desconto": "25%",
+        "validade": "2025-12-10"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Introdução ao SwiftUI", "data": "2025-09-08", "instrutor": "Juliana Freitas" },
+        { "titulo": "Core Data e persistência", "data": "2025-11-02", "instrutor": "André Moreira" }
+      ]
+    },
+    {
+      "id": 17,
+      "nome": "Formação Cybersecurity Specialist",
+      "tecnologia": "Segurança da Informação",
+      "nivel": "Avançado",
+      "numero_de_modulos": 16,
+      "xp_total": 38000,
+      "badges_disponiveis": ["Ethical Hacker", "Network Security Pro", "OWASP Expert"],
+      "promocoes": {
+        "desconto": "40%",
+        "validade": "2025-10-25"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Fundamentos de Segurança", "data": "2025-07-22", "instrutor": "Henrique Barros" },
+        { "titulo": "Pentest na prática", "data": "2025-09-15", "instrutor": "Camila Rocha" }
+      ]
+    },
+    {
+      "id": 18,
+      "nome": "Formação TypeScript Developer",
+      "tecnologia": "TypeScript",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 9,
+      "xp_total": 16000,
+      "badges_disponiveis": ["TS Starter", "Types Master", "Generics Pro"],
+      "promocoes": {
+        "desconto": "10%",
+        "validade": "2025-08-05"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "TypeScript do zero", "data": "2025-08-16", "instrutor": "Tatiana Luz" }
+      ]
+    },
+    {
+      "id": 19,
+      "nome": "Formação Go Developer",
+      "tecnologia": "Go (Golang)",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 10,
+      "xp_total": 19000,
+      "badges_disponiveis": ["Go Starter", "Concurrency Expert", "Go Microservices Pro"],
+      "promocoes": {
+        "desconto": "20%",
+        "validade": "2025-12-05"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Introdução ao Go", "data": "2025-09-25", "instrutor": "Paulo Fonseca" },
+        { "titulo": "Go Routines e Channels", "data": "2025-11-10", "instrutor": "Luana Cardoso" }
+      ]
+    },
+    {
+      "id": 20,
+      "nome": "Formação Rust Developer",
+      "tecnologia": "Rust",
+      "nivel": "Avançado",
+      "numero_de_modulos": 14,
+      "xp_total": 32000,
+      "badges_disponiveis": ["Rust Starter", "Memory Safety Expert", "Systems Programmer"],
+      "promocoes": {
+        "desconto": "30%",
+        "validade": "2025-11-28"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Por que Rust?", "data": "2025-10-14", "instrutor": "Sérgio Monteiro" }
+      ]
+    },
+    {
+      "id": 21,
+      "nome": "Formação Blockchain Developer",
+      "tecnologia": "Solidity / Web3",
+      "nivel": "Avançado",
+      "numero_de_modulos": 13,
+      "xp_total": 29500,
+      "badges_disponiveis": ["Blockchain Basics", "Smart Contract Expert", "DeFi Pro"],
+      "promocoes": {
+        "desconto": "35%",
+        "validade": "2025-12-15"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Introdução ao Blockchain", "data": "2025-08-30", "instrutor": "Rodrigo Farias" },
+        { "titulo": "Smart Contracts com Solidity", "data": "2025-10-18", "instrutor": "Marina Queiroz" }
+      ]
+    },
+    {
+      "id": 22,
+      "nome": "Formação Quality Assurance Engineer",
+      "tecnologia": "Testes / Selenium / Cypress",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 10,
+      "xp_total": 18000,
+      "badges_disponiveis": ["QA Fundamentals", "Automation Tester", "Cypress Expert"],
+      "promocoes": {
+        "desconto": "15%",
+        "validade": "2025-09-20"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Testes automatizados com Cypress", "data": "2025-07-31", "instrutor": "Fabiana Neves" }
+      ]
+    },
+    {
+      "id": 23,
+      "nome": "Formação UX/UI Designer",
+      "tecnologia": "Figma / Design Systems",
+      "nivel": "Básico",
+      "numero_de_modulos": 8,
+      "xp_total": 13000,
+      "badges_disponiveis": ["Figma Starter", "Prototyping Pro", "Design System Expert"],
+      "promocoes": {
+        "desconto": "20%",
+        "validade": "2025-10-08"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Fundamentos de UX", "data": "2025-08-04", "instrutor": "Letícia Borges" },
+        { "titulo": "Criando Design Systems", "data": "2025-09-28", "instrutor": "Cauê Medeiros" }
+      ]
+    },
+    {
+      "id": 24,
+      "nome": "Formação Arquitetura de Software",
+      "tecnologia": "Arquitetura / Design Patterns",
+      "nivel": "Avançado",
+      "numero_de_modulos": 15,
+      "xp_total": 36000,
+      "badges_disponiveis": ["Clean Architecture", "SOLID Expert", "DDD Master"],
+      "promocoes": {
+        "desconto": "30%",
+        "validade": "2025-11-05"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "SOLID na prática", "data": "2025-08-12", "instrutor": "Alexandre Corrêa" },
+        { "titulo": "Domain-Driven Design", "data": "2025-10-28", "instrutor": "Patrícia Vieira" }
+      ]
+    },
+    {
+      "id": 25,
+      "nome": "Formação Engenharia de Dados",
+      "tecnologia": "Apache Spark / Kafka / Airflow",
+      "nivel": "Avançado",
+      "numero_de_modulos": 16,
+      "xp_total": 40000,
+      "badges_disponiveis": ["Data Engineer", "Spark Expert", "Pipeline Master"],
+      "promocoes": {
+        "desconto": "35%",
+        "validade": "2025-12-22"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Introdução ao Apache Kafka", "data": "2025-09-02", "instrutor": "Nelson Aguiar" },
+        { "titulo": "Pipelines com Airflow", "data": "2025-11-17", "instrutor": "Cíntia Paiva" }
+      ]
+    },
+    {
+      "id": 26,
+      "nome": "Formação C# .NET Developer",
+      "tecnologia": "C# / .NET",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 12,
+      "xp_total": 22500,
+      "badges_disponiveis": ["C# Starter", ".NET Expert", "ASP.NET Pro"],
+      "promocoes": {
+        "desconto": "10%",
+        "validade": "2025-09-05"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "C# para iniciantes", "data": "2025-08-20", "instrutor": "Roberto Cunha" },
+        { "titulo": "APIs com ASP.NET Core", "data": "2025-10-07", "instrutor": "Viviane Amaral" }
+      ]
+    },
+    {
+      "id": 27,
+      "nome": "Formação PHP Developer",
+      "tecnologia": "PHP / Laravel",
+      "nivel": "Básico",
+      "numero_de_modulos": 9,
+      "xp_total": 14800,
+      "badges_disponiveis": ["PHP Starter", "Laravel Expert", "Eloquent ORM Master"],
+      "promocoes": {
+        "desconto": "20%",
+        "validade": "2025-10-12"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "PHP moderno com Laravel", "data": "2025-09-16", "instrutor": "Fábio Rezende" }
+      ]
+    },
+    {
+      "id": 28,
+      "nome": "Formação Inteligência Artificial Generativa",
+      "tecnologia": "LLMs / Prompt Engineering / LangChain",
+      "nivel": "Avançado",
+      "numero_de_modulos": 14,
+      "xp_total": 34000,
+      "badges_disponiveis": ["AI Generativa Expert", "Prompt Engineer Pro", "LangChain Master"],
+      "promocoes": {
+        "desconto": "40%",
+        "validade": "2025-12-31"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Fundamentos de LLMs", "data": "2025-07-29", "instrutor": "Tiago Nascimento" },
+        { "titulo": "Criando agentes com LangChain", "data": "2025-10-22", "instrutor": "Elisa Monteiro" }
+      ]
+    },
+    {
+      "id": 29,
+      "nome": "Formação Game Developer com Unity",
+      "tecnologia": "Unity / C#",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 13,
+      "xp_total": 25000,
+      "badges_disponiveis": ["Unity Starter", "2D Game Developer", "3D Game Expert"],
+      "promocoes": {
+        "desconto": "25%",
+        "validade": "2025-11-11"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Criando seu primeiro jogo 2D", "data": "2025-08-26", "instrutor": "Guilherme Neto" },
+        { "titulo": "Física e animações no Unity", "data": "2025-10-30", "instrutor": "Fernanda Lima" }
+      ]
+    },
+    {
+      "id": 30,
+      "nome": "Formação Linux Fundamentals",
+      "tecnologia": "Linux / Shell Script",
+      "nivel": "Básico",
+      "numero_de_modulos": 7,
+      "xp_total": 10500,
+      "badges_disponiveis": ["Linux Starter", "Shell Script Pro", "Sysadmin Basics"],
+      "promocoes": {
+        "desconto": "0%",
+        "validade": null
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Linux do zero", "data": "2025-07-14", "instrutor": "Adriano Castro" }
+      ]
+    },
+    {
+      "id": 31,
+      "nome": "Formação GraphQL Developer",
+      "tecnologia": "GraphQL / Apollo",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 9,
+      "xp_total": 17000,
+      "badges_disponiveis": ["GraphQL Starter", "Apollo Expert", "Schema Design Pro"],
+      "promocoes": {
+        "desconto": "15%",
+        "validade": "2025-09-30"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Introdução ao GraphQL", "data": "2025-08-24", "instrutor": "Simone Araújo" }
+      ]
+    },
+    {
+      "id": 32,
+      "nome": "Formação Prompt Engineering e IA Aplicada",
+      "tecnologia": "OpenAI / Gemini / Copilot",
+      "nivel": "Básico",
+      "numero_de_modulos": 6,
+      "xp_total": 9800,
+      "badges_disponiveis": ["Prompt Engineer", "AI Tools Expert", "Copilot Pro"],
+      "promocoes": {
+        "desconto": "30%",
+        "validade": "2025-12-31"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Como usar o ChatGPT produtivamente", "data": "2025-07-10", "instrutor": "Mônica Prado" },
+        { "titulo": "GitHub Copilot para devs", "data": "2025-08-05", "instrutor": "Leonardo Bastos" }
+      ]
+    }
+  ]
+}
