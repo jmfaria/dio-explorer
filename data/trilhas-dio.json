@@ -564,6 +564,148 @@
         { "titulo": "Como usar o ChatGPT produtivamente", "data": "2025-07-10", "instrutor": "Mônica Prado" },
         { "titulo": "GitHub Copilot para devs", "data": "2025-08-05", "instrutor": "Leonardo Bastos" }
       ]
+    },
+    {
+      "id": 33,
+      "nome": "Formação Next.js Developer",
+      "tecnologia": "Next.js / React",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 11,
+      "xp_total": 20000,
+      "badges_disponiveis": ["Next.js Starter", "SSR Expert", "Full-Stack Pro"],
+      "promocoes": {
+        "desconto": "20%",
+        "validade": "2025-11-01"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Next.js 14 do zero", "data": "2025-08-19", "instrutor": "Carla Monteiro" },
+        { "titulo": "Server Components na prática", "data": "2025-10-07", "instrutor": "Igor Salles" }
+      ]
+    },
+    {
+      "id": 34,
+      "nome": "Formação NestJS Backend Developer",
+      "tecnologia": "NestJS / TypeScript",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 10,
+      "xp_total": 18800,
+      "badges_disponiveis": ["NestJS Starter", "Dependency Injection Pro", "REST & GraphQL Expert"],
+      "promocoes": {
+        "desconto": "15%",
+        "validade": "2025-10-20"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Arquitetura modular com NestJS", "data": "2025-09-10", "instrutor": "Renato Borges" }
+      ]
+    },
+    {
+      "id": 35,
+      "nome": "Formação MongoDB e NoSQL",
+      "tecnologia": "MongoDB / Redis / Cassandra",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 9,
+      "xp_total": 16500,
+      "badges_disponiveis": ["NoSQL Starter", "MongoDB Expert", "Cache Pro"],
+      "promocoes": {
+        "desconto": "10%",
+        "validade": "2025-09-25"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "MongoDB na prática", "data": "2025-08-13", "instrutor": "Daniela Cruz" },
+        { "titulo": "Redis como cache e pub/sub", "data": "2025-10-01", "instrutor": "Marcelo Faria" }
+      ]
+    },
+    {
+      "id": 36,
+      "nome": "Formação Inteligência Artificial com TensorFlow",
+      "tecnologia": "TensorFlow / Keras",
+      "nivel": "Avançado",
+      "numero_de_modulos": 15,
+      "xp_total": 37500,
+      "badges_disponiveis": ["TensorFlow Expert", "Keras Master", "CNN Pro"],
+      "promocoes": {
+        "desconto": "35%",
+        "validade": "2025-12-18"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Classificação de imagens com CNN", "data": "2025-09-03", "instrutor": "Roberta Melo" },
+        { "titulo": "Transfer Learning na prática", "data": "2025-11-06", "instrutor": "Augusto Lima" }
+      ]
+    },
+    {
+      "id": 37,
+      "nome": "Formação Power BI e Análise de Dados",
+      "tecnologia": "Power BI / DAX / Power Query",
+      "nivel": "Básico",
+      "numero_de_modulos": 8,
+      "xp_total": 12800,
+      "badges_disponiveis": ["Power BI Starter", "DAX Expert", "Dashboard Pro"],
+      "promocoes": {
+        "desconto": "20%",
+        "validade": "2025-10-14"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Criando dashboards com Power BI", "data": "2025-08-07", "instrutor": "Érica Tavares" }
+      ]
+    },
+    {
+      "id": 38,
+      "nome": "Formação Scrum e Agile",
+      "tecnologia": "Metodologias Ágeis / Scrum / Kanban",
+      "nivel": "Básico",
+      "numero_de_modulos": 6,
+      "xp_total": 9000,
+      "badges_disponiveis": ["Scrum Fundamentals", "Agile Practitioner", "Kanban Expert"],
+      "promocoes": {
+        "desconto": "0%",
+        "validade": null
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Scrum do zero ao avançado", "data": "2025-07-17", "instrutor": "Cristiano Matos" },
+        { "titulo": "Kanban na gestão de projetos", "data": "2025-09-11", "instrutor": "Flávia Rocha" }
+      ]
+    },
+    {
+      "id": 39,
+      "nome": "Formação Elixir e Programação Funcional",
+      "tecnologia": "Elixir / Phoenix",
+      "nivel": "Avançado",
+      "numero_de_modulos": 12,
+      "xp_total": 26000,
+      "badges_disponiveis": ["Elixir Starter", "OTP Expert", "Phoenix Pro"],
+      "promocoes": {
+        "desconto": "25%",
+        "validade": "2025-11-22"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Introdução ao Elixir", "data": "2025-09-20", "instrutor": "Otávio Braga" },
+        { "titulo": "APIs em tempo real com Phoenix", "data": "2025-11-14", "instrutor": "Juliana Ramos" }
+      ]
+    },
+    {
+      "id": 40,
+      "nome": "Formação Web3 e Desenvolvimento Descentralizado",
+      "tecnologia": "Web3.js / IPFS / Ethereum",
+      "nivel": "Avançado",
+      "numero_de_modulos": 13,
+      "xp_total": 31000,
+      "badges_disponiveis": ["Web3 Explorer", "dApp Developer", "IPFS Expert"],
+      "promocoes": {
+        "desconto": "30%",
+        "validade": "2025-12-28"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Construindo dApps do zero", "data": "2025-10-09", "instrutor": "Vinícius Leal" },
+        { "titulo": "IPFS e armazenamento descentralizado", "data": "2025-11-25", "instrutor": "Amanda Ferreira" }
+      ]
     }
   ]
 }
